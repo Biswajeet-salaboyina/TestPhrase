@@ -1,0 +1,21 @@
+phrase:
+  access_token: PHRASE_TOKEN
+  project id: 0bdc13de01ae8c118626264daeb8d9fb
+  push:
+    sources:
+     - file: ./locales/es-US.json
+       params:
+        file_format: react_simple_json
+        locale_id: b00301389056083a7f4269bade48e72c
+        update_translations: true
+  pull:
+    targets:
+     - file: ./locales/hi-IN.json
+      params:
+        file_format: react_simple_json
+        locale_id: f3eb9421f02eee462b33fdb80c522476
+     - file: ./locales/te-IN.json
+      params:
+        file_format: react_simple_json
+        locale_id: 67865c272c40e847006a77029bdbe47d
+    
