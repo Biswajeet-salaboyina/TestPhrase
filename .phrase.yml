@@ -1,6 +1,7 @@
 phrase:
   access_token: PHRASE_TOKEN
   project id: 0bdc13de01ae8c118626264daeb8d9fb
+  file_format: "yml"
   push:
     sources:
      - file: ./locales/es-US.json
