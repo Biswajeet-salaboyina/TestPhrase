@@ -6,8 +6,14 @@ phrase:
       - file: .locales/en-US.json
         params:
           file_format: react_simple_json
+          locale_id: b00301389056083a7f4269bade48e72c
   pull:
     targets:
       - file: .locales/hi-IN.json
         params:
           file_format: react_simple_json
+          locale_id: f3eb9421f02eee462b33fdb80c522476
+      - file: .locales/te-IN.json
+        params:
+          file_format: react_simple_json
+          locale_id: 67865c272c40e847006a77029bdbe47d
